@@ -1,0 +1,44 @@
+﻿@model List<AppUser>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Kullanıcı Listesi</h1>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Kullanıcı Adı</th>
+            <th>Cinsiyet</th>
+            <th>Sil</th>
+            <th>Güncelle</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>@item.Id</th>
+                <td>@item.Name</td>
+                <td>@item.Surname</td>
+                <td>@item.UserName</td>
+                @if (@item.Gender == "erkek")
+                {
+                    <td><span style="background-color:blue">Erkek</span></td>
+                }else
+                {
+                    <td><span style="background-color:hotpink">Kadın</span></td>
+                }
+                
+                <td><a href="/Product/DeleteProduct/@item.Id" class="btn btn-outline-danger">Sil</a></td>
+                <td><a href="/Product/EditProduct/@item.Id" class="btn btn-outline-success">Düzenle</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/Register/Index/" class="btn btn-outline-primary">Yeni Kullanıcı</a>

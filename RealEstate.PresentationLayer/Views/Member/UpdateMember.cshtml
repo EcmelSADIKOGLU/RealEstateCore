@@ -1,0 +1,35 @@
+﻿@model Member
+@{
+    ViewData["Title"] = "UpdateMember";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Güncelleme Sayfası</h1>
+
+<form method="post">
+    <input hidden asp-for="MemberID" />
+
+    <label>Üye Adı</label>
+    <input type="text" asp-for="MemberName" class="form-control" />
+    <span asp-validation-for="MemberName" class="text-danger"></span>
+    <br />
+
+
+    <label>Üye Soyadı</label>
+    <input type="text" asp-for="MemberSurname" class="form-control" />
+    <span asp-validation-for="MemberSurname" class="text-danger"></span>
+    <br />
+
+
+    <label>Üye Mail</label>
+    <input type="text" asp-for="MemberEmail" class="form-control" />
+    <span asp-validation-for="MemberEmail" class="text-danger"></span>
+    <br />
+
+
+    <label>Üye Resmi</label>
+    <input type="text" asp-for="MemberImage" class="form-control" />
+    <span asp-validation-for="MemberImage" class="text-danger"></span>
+    <br />
+    <button class="btn btn-info">Üyeyi Kaydet</button>
+</form>

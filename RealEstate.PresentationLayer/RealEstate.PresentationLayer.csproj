@@ -1,0 +1,198 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\.DS_Store" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\.gitignore" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\CHANGELOG.md" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\LICENSE" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\preview.png" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\README.md" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\.DS_Store" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\css\maps\style.css.map" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\css\style.css" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\documentation\.DS_Store" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\documentation\documentation.html" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\.DS_Store" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\.DS_Store" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\Roboto-Black.eot" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\Roboto-Black.ttf" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\Roboto-Black.woff" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\Roboto-Black.woff2" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\Roboto-Bold.eot" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\Roboto-Bold.ttf" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\Roboto-Bold.woff" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\Roboto-Bold.woff2" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\Roboto-Light.eot" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\Roboto-Light.ttf" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\Roboto-Light.woff" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\Roboto-Light.woff2" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\Roboto-Medium.eot" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\Roboto-Medium.ttf" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\Roboto-Medium.woff" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\Roboto-Medium.woff2" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\Roboto-Regular.eot" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\Roboto-Regular.ttf" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\Roboto-Regular.woff" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\fonts\Roboto\Roboto-Regular.woff2" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\gulpfile.js" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\.DS_Store" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\auth\.DS_Store" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\auth\lockscreen-bg.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\auth\login-bg.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\auth\register-bg.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\.DS_Store" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face1.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face10.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face11.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face12.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face13.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face14.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face15.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face16.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face17.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face18.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face19.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face2.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face20.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face21.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face22.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face23.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face24.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face25.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face26.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face27.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face3.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face4.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face5.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face6.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face7.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face8.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\faces\face9.jpg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\favicon.ico" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\favicon.png" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\logo-mini.svg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\images\logo.svg" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\index.html" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\js\.DS_Store" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\js\chart.js" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\js\Chart.min.js" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\js\dashboard.js" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\js\data-table.js" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\js\dataTables.bootstrap4.js" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\js\documentation.js" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\js\file-upload.js" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\js\hoverable-collapse.js" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\js\jquery.cookie.js" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\js\jquery.dataTables.js" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\js\off-canvas.js" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\js\tabs.js" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\js\template.js" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\pages\.DS_Store" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\pages\charts\.DS_Store" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\pages\charts\chartjs.html" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\pages\forms\.DS_Store" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\pages\forms\basic_elements.html" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\pages\icons\.DS_Store" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\pages\icons\mdi.html" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\pages\samples\.DS_Store" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\pages\samples\lock-screen.html" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\pages\samples\login-2.html" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\pages\samples\login.html" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\pages\samples\register-2.html" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\pages\samples\register.html" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\pages\tables\.DS_Store" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\pages\tables\basic-table.html" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\pages\ui-features\.DS_Store" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\pages\ui-features\buttons.html" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\pages\ui-features\typography.html" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\partials\_footer.html" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\partials\_navbar.html" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\partials\_settings-panel.html" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\partials\_sidebar.html" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\.DS_Store" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\components\.DS_Store" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\components\plugin-overrides\_data-tables.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\components\_badges.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\components\_bootstrap-progress.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\components\_buttons.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\components\_cards.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\components\_checkbox-radio.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\components\_dropdown.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\components\_forms.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\components\_icons.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\components\_lists.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\components\_tables.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\landing-screens\_auth.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\mixins\.DS_Store" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\mixins\_animation.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\mixins\_badges.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\mixins\_blockqoute.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\mixins\_buttons.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\mixins\_cards.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\mixins\_misc.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\style.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\_background.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\_demo.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\_fonts.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\_footer.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\_functions.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\_layouts.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\_misc.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\_navbar.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\_reset.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\_sidebar.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\_typography.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\_utilities.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\_variables.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\scss\_vertical-wrapper.scss" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\vendors\.DS_Store" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\vendors\base\bootstrap.min.js.map" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\vendors\base\vendor.bundle.base.css" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\vendors\base\vendor.bundle.base.js" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\vendors\chart.js\Chart.min.js" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\vendors\datatables.net-bs4\dataTables.bootstrap4.css" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\vendors\datatables.net-bs4\dataTables.bootstrap4.js" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\vendors\datatables.net\jquery.dataTables.js" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\vendors\mdi\css\materialdesignicons.min.css" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\vendors\mdi\css\materialdesignicons.min.css.map" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\vendors\mdi\fonts\materialdesignicons-webfont.eot" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\vendors\mdi\fonts\materialdesignicons-webfont.ttf" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\vendors\mdi\fonts\materialdesignicons-webfont.woff" />
+    <None Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\template\vendors\mdi\fonts\materialdesignicons-webfont.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
+    <PackageReference Include="MailKit" Version="3.4.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.17">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.17">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="MimeKit" Version="3.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RealEstate.BusinessLayer\RealEstate.BusinessLayer.csproj" />
+    <ProjectReference Include="..\RealEstate.DataAccessLayer\RealEstate.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\RealEstate.EntityLayer\RealEstate.EntityLayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Guest\Data\" />
+    <Folder Include="wwwroot\Images\" />
+  </ItemGroup>
+
+</Project>
