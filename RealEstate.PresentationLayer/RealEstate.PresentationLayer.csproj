@@ -166,7 +166,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.97.0" />
+    <PackageReference Include="EPPlus.Core" Version="1.5.4" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
+    <PackageReference Include="iTextSharp.LGPLv2.Core" Version="1.9.3" />
     <PackageReference Include="MailKit" Version="3.4.2" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.17" />
@@ -191,8 +194,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\Default\Controllers\" />
+    <Folder Include="Areas\Default\Data\" />
+    <Folder Include="Areas\Default\Models\" />
+    <Folder Include="Areas\Default\Views\" />
     <Folder Include="Areas\Guest\Data\" />
     <Folder Include="wwwroot\Images\" />
+    <Folder Include="wwwroot\PdfReports\" />
   </ItemGroup>
 
 </Project>

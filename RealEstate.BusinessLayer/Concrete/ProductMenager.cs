@@ -38,6 +38,11 @@ namespace RealEstate.BusinessLayer.Concrete
             return productDAL.GetProductByCategory();
         }
 
+        public List<Product> TGetProductByGuest(int id)
+        {
+            return productDAL.GetProductByGuest(id);
+        }
+
         public void TInsert(Product entity)
         {
             productDAL.Insert(entity);

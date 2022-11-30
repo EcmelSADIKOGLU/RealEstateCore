@@ -43,10 +43,46 @@ namespace RealEstate.PresentationLayer.Areas.Guest.Controllers
         public async Task<IActionResult> Index(Product product)
         {
             product.Date = Convert.ToDateTime(DateTime.Now.ToShortDateString());
-            var values = await _userManager.FindByNameAsync(User.Identity.Name);
-            product.AppUserID = values.Id;
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            product.AppUserID = user.Id;
             _productService.TInsert(product);
             return RedirectToAction("Index","Product");
+        }
+
+        public async Task<IActionResult> ProductListByGuest()
+        {
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            var productListByGuest = _productService.TGetProductByGuest(user.Id);
+            return View(productListByGuest);
+        }
+
+        public IActionResult DeleteProductByGuest(int id)
+        {
+
+            return RedirectToAction("ProductListByGuest");
+        }
+        [HttpGet]
+        public IActionResult UpdateProductByGuest(int id)
+        {
+            List<SelectListItem> categories = (from x in _categoryService.TGetList()
+                                               select new SelectListItem
+                                               {
+                                                   Text = x.CategoryName,
+                                                   Value = x.CategoryID.ToString()
+                                               }
+                                               ).ToList();
+            ViewBag.categories = categories;
+
+            var product = _productService.TGetByID(id);
+
+            return View(product);
+        }
+
+        [HttpPost]
+        public IActionResult UpdateProductByGuest(Product product)
+        {
+            _productService.TUpdate(product);
+            return RedirectToAction("ProductListByGuest");
         }
     }
 }

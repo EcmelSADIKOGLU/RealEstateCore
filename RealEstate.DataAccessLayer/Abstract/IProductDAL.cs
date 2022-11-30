@@ -10,5 +10,7 @@ namespace RealEstate.DataAccessLayer.Abstract
     public interface IProductDAL:IGenericDAL<Product>
     {
         List<Product> GetProductByCategory();
+
+        List<Product> GetProductByGuest(int id);
     }
 }

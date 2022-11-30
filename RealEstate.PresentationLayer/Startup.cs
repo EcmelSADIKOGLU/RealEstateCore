@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RealEstate.BusinessLayer.Abstract;
 using RealEstate.BusinessLayer.Concrete;
+using RealEstate.BusinessLayer.DIContainer;
 using RealEstate.DataAccessLayer.Abstract;
 using RealEstate.DataAccessLayer.Concrete;
 using RealEstate.DataAccessLayer.EntityFramework;
@@ -30,15 +31,7 @@ namespace RealEstate.PresentationLayer
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
-            services.AddScoped<ICategoryService, CategoryMenager>();
-            services.AddScoped<ICategoryDAL, EFCategoryDAL>();
-
-            services.AddScoped<IMemberService, MemberMenager>();
-            services.AddScoped<IMemberDAL, EFMemberDAL>();
-
-            services.AddScoped<IProductService, ProductMenager>();
-            services.AddScoped<IProductDAL, EFProductDAL>();
+            services.ContainerDependencies();
 
             services.AddDbContext<Context>();
             services.AddIdentity<AppUser, AppRole>().AddErrorDescriber<CustomIdentityValidatior>().AddEntityFrameworkStores<Context>();
